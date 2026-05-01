@@ -181,3 +181,5 @@ See SOW §13. Priority order:
 
 ## Authored by
 ANALYST (lead) + ARCHITECT (architecture) + PRODUCT (use cases) — May 2026.
+
+<!-- trigger deploy -->
