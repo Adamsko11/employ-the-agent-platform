@@ -1,0 +1,30 @@
+# Deps
+node_modules/
+**/node_modules/
+
+# Build artefacts
+.next/
+**/.next/
+dist/
+**/dist/
+
+# Env files (NEVER commit)
+.env
+.env.local
+**/.env
+**/.env.local
+
+# Vercel cache
+.vercel/
+**/.vercel/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --brass: #B8893D;
+  --brass-soft: #FAF6EE;
+  --ink: #1F2937;
+  --slate-900: #0F172A;
+}
+
+html, body { background: var(--slate-900); color: white; }
+html { font-family: "Inter Tight", Inter, system-ui, sans-serif; }
+
+/* Subtle brass accent for selection */
+::selection { background: var(--brass); color: #fff; }
