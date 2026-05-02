@@ -32,7 +32,7 @@ export async function GET(request: NextRequest) {
     {
       cookies: {
         getAll() { return request.cookies.getAll().map(c => ({ name: c.name, value: c.value })); },
-        setAll(cookiesToSet) {
+        setAll(cookiesToSet: Array<{ name: string; value: string; options?: Record<string, unknown> }>) {
           cookiesToSet.forEach(({ name, value, options }) => {
             response.cookies.set(name, value, options);
           });
